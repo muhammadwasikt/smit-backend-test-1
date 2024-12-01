@@ -1,5 +1,6 @@
 import albumsRoutes from "./albumsRoute.js";
 import commentsRoutes from "./commentsRoute.js";
+import photosRoutes from "./photosRoute.js";
 import postRoutes from "./postRoute.js";
 import todosRoutes from "./todosRoute.js";
 import usersRoutes from "./usersRoute.js";
@@ -24,6 +25,10 @@ const routes = [
     {
         path: '/users',
         element: usersRoutes
+    },
+    {
+        path: '/photos',
+        element: photosRoutes
     },
 ]
 
