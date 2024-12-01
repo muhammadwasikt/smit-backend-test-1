@@ -1,4 +1,4 @@
- const PhotosData = [
+ const photosData = [
     {
       albumId: 1,
       id: 1,

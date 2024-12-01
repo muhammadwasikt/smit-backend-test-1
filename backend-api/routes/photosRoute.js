@@ -2,6 +2,7 @@ import express from "express";
 import photosData from "../modules/photosData.js";
 
 
+
 const photosRoutes = express.Router()
 
 
