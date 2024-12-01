@@ -8,27 +8,33 @@ import usersRoutes from "./usersRoute.js";
 const routes = [
     {
         path: '/albums',
-        element: albumsRoutes
+        element: albumsRoutes,
+        status: 200
     },
     {
         path: '/comments',
-        element: commentsRoutes
+        element: commentsRoutes,
+        status: 200
     },
     {
         path: '/post',
-        element: postRoutes
+        element: postRoutes,
+        status: 200
     },
     {
         path: '/todos',
-        element: todosRoutes
+        element: todosRoutes,
+        status: 200
     },
     {
         path: '/users',
-        element: usersRoutes
+        element: usersRoutes,
+        status: 200
     },
     {
         path: '/photos',
-        element: photosRoutes
+        element: photosRoutes,
+        status: 200
     },
 ]
 
